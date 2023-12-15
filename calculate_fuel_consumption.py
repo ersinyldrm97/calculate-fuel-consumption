@@ -5,7 +5,7 @@ def calculate_and_print(total_km, liters_per_100_km, petrol_price):
     total_fuel_consumption = calculate_fuel_consumption(total_km, liters_per_100_km)
     total_cost = total_fuel_consumption * petrol_price
     
-    print(f"You have traveled {total_km} kilometers, and your vehicle has consumed {total_fuel_consumption:.2f} liters of fuel. Total cost of the trip: {total_cost:.2f}₺")
+    print(f"You have traveled {total_km} kilometers, and your vehicle has consumed {total_fuel_consumption:.2f} liters of fuel. Total cost of the trip: {total_cost:.2f}")
 
 def main():
     try:
