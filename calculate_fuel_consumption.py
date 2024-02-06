@@ -20,7 +20,6 @@ data = res.read()
 
 response_data = json.loads(data)
 
-# "result" anahtarına sahip bir sözlük içindeki "marka" anahtarını kontrol ederek "Shell" olan bir öğeyi buluyoruz
 for station in response_data["result"]:
     if station["marka"] == "Shell":
         price = station["benzin"]
